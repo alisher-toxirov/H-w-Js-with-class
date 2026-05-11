@@ -31,9 +31,9 @@ class Person {
 const example = new Person("Alisher", 15);
 
 class Developer extends Person {
-    constructor(name , age , expirence){
-        super(name , age)
-    }
+  constructor(name, age, expirence) {
+    super(name, age);
+  }
 }
 
 const exampleDeveloper = new Developer("Misha", 5);
